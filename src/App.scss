@@ -1,51 +1,101 @@
 $main-background: #ffc048;
 $background: #ffa801;
+$shadow: #8db1ab;
+$padWidth: 30%;
+$padHeight: 20%;
 
 :root {
+  display: flex;
+  align-items: center;
   box-sizing: border-box;
   font-size: calc(.5em + 1vw);
   line-height: 1.2;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: $main-background;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 *,
 ::before,
 ::after {
   box-sizing: inherit;
 }
-body {
-  background-color: $main-background;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-.container{
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-.left-sidebar{
+.inner-container {
   display: flex;
-  height: 100vh;
-}
-.right-sidebar{
-  display: flex;
-  height: 100vh;
-}
-.screen{
+  flex-direction: column;
+  align-items: center;
+  position: relative;
   margin: auto;
-  padding: 2em 1em;
-  background-color: $background;
+  width: 100%;
   text-align: center;
+  background-color: lighten($background, 5%);
+  padding: 1em;
+  .pad-bank {
+    margin: auto;
+    width: $padWidth * 3;
+    height: $padHeight * 3;
+    display: inline-block;
+    .drum-pad {
+      position: relative;
+      float: left;
+      width: $padWidth;
+      height: $padHeight;
+      margin-right: .7em;
+      border-radius: .3em;
+      padding: 1em;
+      cursor: pointer;
+    }
+  }
+  .controls-container {
+    width: 240px;
+    height: $padHeight * 3 + 32;
+    display: inline-block;
+    margin: 40px 20px 0 10px;
+    vertical-align: top;
+    .control {
+      width: 100px;
+      margin: auto;
+      p {
+        margin-bottom: 0;
+      }
+      .select {
+      @extend .outer-select;
+        .inner {
+          @extend .inner-select;
+        }
+      }
+    }
+    #display {
+      width: 200px;
+      background-color: gray;
+      margin: 15px auto;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+  }
 }
-.drum-pad{
-  margin: 1em;
-  padding: 2em 1.5em;
-  background-color: $background;
-}
-.drum-set{
+
+.outer-select {
   margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-
+  border: 1px solid black;
+  width: 50px;
+  height: 20px;
+  padding: 1px;
+  background-color: black;
 }
 
+.inner-select {
+  width: 23px;
+  height: 19px;
+  background: blue;
+  border: 1px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+}
 
+@media screen and (max-width: 650px) {
+  .inner-container {
+    transform: scale(0.7);
+  }
+}
