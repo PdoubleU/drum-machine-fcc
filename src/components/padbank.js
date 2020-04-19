@@ -10,6 +10,7 @@ class PadData extends React.Component{
                    clip ={padDataArr[i].url}
                    keyTrigger ={padDataArr[i].keyTrigger}
                    keyCode={padDataArr[i].keyCode}
+                   key={padDataArr[i].keyTrigger}
                    updateDisplay={this.props.updateDisplay} />
       )
     })
