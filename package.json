@@ -2,7 +2,7 @@
   "name": "drummachine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://PdoubleU.github.io/drum-machine-fcc",
+  "homepage": "https://PdoubleU.github.io/react_drums_exercise_04_2020",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -18,8 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
- },
+    "deploy": "gh-pages -d build"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
