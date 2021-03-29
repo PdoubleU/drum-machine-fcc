@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/drum-machine-fcc/static/css/main.e7577066.chunk.css",
-    "main.js": "/drum-machine-fcc/static/js/main.b580c2e8.chunk.js",
-    "main.js.map": "/drum-machine-fcc/static/js/main.b580c2e8.chunk.js.map",
-    "runtime-main.js": "/drum-machine-fcc/static/js/runtime-main.a0fdcbcc.js",
-    "runtime-main.js.map": "/drum-machine-fcc/static/js/runtime-main.a0fdcbcc.js.map",
-    "static/js/2.36a03fdc.chunk.js": "/drum-machine-fcc/static/js/2.36a03fdc.chunk.js",
-    "static/js/2.36a03fdc.chunk.js.map": "/drum-machine-fcc/static/js/2.36a03fdc.chunk.js.map",
-    "index.html": "/drum-machine-fcc/index.html",
-    "precache-manifest.ac4f57c5957588e63a7a8db152d1e22a.js": "/drum-machine-fcc/precache-manifest.ac4f57c5957588e63a7a8db152d1e22a.js",
-    "service-worker.js": "/drum-machine-fcc/service-worker.js",
-    "static/css/main.e7577066.chunk.css.map": "/drum-machine-fcc/static/css/main.e7577066.chunk.css.map",
-    "static/js/2.36a03fdc.chunk.js.LICENSE.txt": "/drum-machine-fcc/static/js/2.36a03fdc.chunk.js.LICENSE.txt"
+    "main.css": "/react_drums_exercise_04_2020/static/css/main.2ebe20f1.chunk.css",
+    "main.js": "/react_drums_exercise_04_2020/static/js/main.c4e7acb5.chunk.js",
+    "main.js.map": "/react_drums_exercise_04_2020/static/js/main.c4e7acb5.chunk.js.map",
+    "runtime-main.js": "/react_drums_exercise_04_2020/static/js/runtime-main.61d9caa4.js",
+    "runtime-main.js.map": "/react_drums_exercise_04_2020/static/js/runtime-main.61d9caa4.js.map",
+    "static/js/2.36a03fdc.chunk.js": "/react_drums_exercise_04_2020/static/js/2.36a03fdc.chunk.js",
+    "static/js/2.36a03fdc.chunk.js.map": "/react_drums_exercise_04_2020/static/js/2.36a03fdc.chunk.js.map",
+    "index.html": "/react_drums_exercise_04_2020/index.html",
+    "precache-manifest.272de048f1142d0a817950b750d3515e.js": "/react_drums_exercise_04_2020/precache-manifest.272de048f1142d0a817950b750d3515e.js",
+    "service-worker.js": "/react_drums_exercise_04_2020/service-worker.js",
+    "static/css/main.2ebe20f1.chunk.css.map": "/react_drums_exercise_04_2020/static/css/main.2ebe20f1.chunk.css.map",
+    "static/js/2.36a03fdc.chunk.js.LICENSE.txt": "/react_drums_exercise_04_2020/static/js/2.36a03fdc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a0fdcbcc.js",
+    "static/js/runtime-main.61d9caa4.js",
     "static/js/2.36a03fdc.chunk.js",
-    "static/css/main.e7577066.chunk.css",
-    "static/js/main.b580c2e8.chunk.js"
+    "static/css/main.2ebe20f1.chunk.css",
+    "static/js/main.c4e7acb5.chunk.js"
   ]
 }
